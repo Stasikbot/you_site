@@ -365,15 +365,14 @@ header a {
 }
 
 @media screen and (max-width: 767px) {
+	.container {
+		width: 540px;
+	}
 	.offer h1 {
 	font-size: 30px;
 	margin-bottom: 19px;
 	margin-top: -9px;
 	letter-spacing: 0.02em
-	}
-	
-	.container {
-		width: 540px;
 	}
 	.menu {
 		display: none;
