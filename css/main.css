@@ -351,6 +351,14 @@ header a {
 		width: 43%;
 	}
 }
+@media screen and (max-width: 1100px) {
+	.offer h1 {
+	font-size: 50px;
+	margin-bottom: 19px;
+	margin-top: -9px;
+	letter-spacing: 0.02em
+	}
+}
 
 @media screen and (max-width: 991px) {
 	.container {
@@ -362,6 +370,15 @@ header a {
 	margin-top: -9px;
 	letter-spacing: 0.02em
 	}
+}
+
+@media screen and (max-width: 800px) {
+	.offer h1 {
+		font-size: 30px;
+		margin-bottom: 19px;
+		margin-top: -9px;
+		letter-spacing: 0.02em
+		}
 }
 
 @media screen and (max-width: 767px) {
