@@ -365,6 +365,13 @@ header a {
 }
 
 @media screen and (max-width: 767px) {
+	.offer h1 {
+	font-size: 30px;
+	margin-bottom: 19px;
+	margin-top: -9px;
+	letter-spacing: 0.02em
+	}
+	
 	.container {
 		width: 540px;
 	}
@@ -450,6 +457,13 @@ header a {
 }
 
 @media screen and (max-width: 575px) {
+	.offer h1 {
+	font-size: 10px;
+	margin-bottom: 19px;
+	margin-top: -9px;
+	letter-spacing: 0.02em
+	}
+	
 	.container {
 		width: 100%;
 		padding: 0 15px;
