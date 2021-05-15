@@ -483,10 +483,58 @@ header a {
 	margin-top: -9px;
 	letter-spacing: 0.02em
 	}
-	.tel {
-		display: none;
+	.gallery1 img:nth-child(1) {
+		height: 50%
+	}
+	.gallery1 img:nth-child(2) {
+		height: 50%;
+	}
+	.gallery1 img:nth-child(3) {
+		height: 50%;
+	}
+	.gallery2 img:nth-child(1) {
+		height: 50%;
+	}
+	.gallery2 img:nth-child(2) {
+		height: 50%;
+	}
+	.gallery2 img:nth-child(3) {
+		height: 50%;
+	}
+	.gallery3 img:nth-child(1) {
+		height: 50%;
+	}
+	.gallery3 img:nth-child(2) {
+		height: 50%;
+	}
+	.gallery3 img:nth-child(3) {
+		height: 50%;
+	}
+	.gallery4 img:nth-child(1) {
+		height: 50%;
+	}
+	.gallery4 img:nth-child(2) {
+		height: 50%;
+	}
+	.gallery4 img:nth-child(3) {
+		height: 50%;
+	}
+	.gallery5 img:nth-child(1) {
+		height: 50%;
+	}
+	.gallery5 img:nth-child(2) {
+		height: 50%;
+	}
+	.gallery5 img:nth-child(3) {
+		height: 50%;
 	}
 	.menu-open {
 		margin-left: auto;
+	}
+	.footer {
+		font-size: 50%
+	}	
+	.footer-textt {
+		display: block
 	}
 }
