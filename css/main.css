@@ -357,13 +357,13 @@ header a {
 		width: 28%;
 	}
 	.gallery3 img:nth-child(1) {
-		width: 23%;
+		width: 32%;
 	}
 	.gallery3 img:nth-child(2) {
-		width: 34%;
+		width: 32%;
 	}
 	.gallery3 img:nth-child(3) {
-		width: 39%;
+		width: 30%;
 	}
 	.gallery4 img:nth-child(1) {
 		width: 28%;
@@ -375,7 +375,7 @@ header a {
 		width: 28%;
 	}
 	.gallery5 img:nth-child(1) {
-		width: 25%;
+		width: 29%;
 	}
 	.gallery5 img:nth-child(2) {
 		width: 23%;
