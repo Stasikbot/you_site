@@ -178,7 +178,17 @@ header a {
 	display: flex;
 	justify-content: space-between;
 }
+.gallery6 {
+	margin-top: 67px;
+	display: flex;
+	justify-content: space-between;
+}
 
+.gallery7 {
+	margin-top: 67px;
+	display: flex;
+	justify-content: space-between;
+}
 
 .gallery img {
 	transition: all 0.5s ease;
@@ -196,6 +206,12 @@ header a {
 	transition: all 0.5s ease;
 }
 .gallery5 img {
+	transition: all 0.5s ease;
+}
+.gallery6 img {
+	transition: all 0.5s ease;
+}
+.gallery7 img {
 	transition: all 0.5s ease;
 }
 
@@ -223,11 +239,18 @@ header a {
 	box-shadow: 0 20px 40px rgba(0,0,0,0.3);
 	transform: scale(1.1);
 }
+.gallery6 img:hover {
+	box-shadow: 0 20px 40px rgba(0,0,0,0.3);
+	transform: scale(1.1);
+}
+.gallery7 img:hover {
+	box-shadow: 0 20px 40px rgba(0,0,0,0.3);
+	transform: scale(1.1);
+}
 
 .footer-text {
 	font-size: 15px;
 	font-family: 'Open Sans', sans-serif;
-
 	padding: 100px 0
 }
 
@@ -237,6 +260,16 @@ header a {
 	font-family: 'Open Sans', sans-serif;
 	display: flex;
     padding-bottom: 100px;
+}
+.footer-textt a {
+	box-shadow: 0 5px 10px rgba(0,0,0,0.3);
+	transform: scale(1.1);
+	border-radius: 15px;
+	overflow:hidden;
+}
+
+.footer-textt a:hover {
+	-webkit-transform: scale(1.2);
 }
 
 .top {
@@ -350,6 +383,24 @@ header a {
 	.gallery5 img:nth-child(3) {
 		width: 43%;
 	}
+	.gallery6 img:nth-child(1) {
+		width: 29%;
+	}
+	.gallery6 img:nth-child(2) {
+		width: 30%;
+	}
+	.gallery6 img:nth-child(3) {
+		width: 31%;
+	}
+	.gallery7 img:nth-child(1) {
+		width: 28%;
+	}
+	.gallery7 img:nth-child(2) {
+		width: 29%;
+	}
+	.gallery7 img:nth-child(3) {
+		width: 41%;
+	}
 }
 @media screen and (max-width: 1100px) {
 	.offer h1 {
@@ -446,6 +497,18 @@ header a {
 		width: 100%;
 		margin-bottom: 20px;
 	}
+	.gallery6 img:nth-child(1),
+	.gallery6 img:nth-child(2),
+	.gallery6 img:nth-child(3) {
+		width: 100%;
+		margin-bottom: 20px;
+	}
+	.gallery7 img:nth-child(1),
+	.gallery7 img:nth-child(2),
+	.gallery7 img:nth-child(3) {
+		width: 100%;
+		margin-bottom: 20px;
+	}
 	.gallery {
 		flex-wrap: wrap;
 	}
@@ -462,6 +525,12 @@ header a {
 		flex-wrap: wrap;
 	}
 	.gallery5 {
+		flex-wrap: wrap;
+	}
+	.gallery6 {
+		flex-wrap: wrap;
+	}
+	.gallery7 {
 		flex-wrap: wrap;
 	}
 	.footer-text {
@@ -499,6 +568,10 @@ header a {
 		height: 50%;
 	}
 	.gallery5 img:nth-child(3) {
+		height: 50%;
+	}
+		}
+	.gallery7 img:nth-child(3) {
 		height: 50%;
 	}
 	.menu-open {
